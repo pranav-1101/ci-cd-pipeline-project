@@ -30,16 +30,17 @@ The pipeline automates the process of:
 ---
 
 ## Repository Structure
+```
 ci-cd-pipeline-project
 │── app/ # Application source code
 │── docker/
-│ └── Dockerfile # Docker image instructions
+│  └── Dockerfile # Docker image instructions
 │── jenkins/ # Jenkins configuration files
 │── docs/
-│ └── architecture.md # Architecture explanation
+│  └── architecture.md # Architecture explanation
 │── Jenkinsfile # Jenkins pipeline definition
 │── README.md
-
+```
 
 ---
 
